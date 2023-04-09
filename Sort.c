@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "BubbleSort.h"
 #include "SelectSort.h"
+#include "InsertionSort.h"
 void PrintOutput(int *arr, int len)
 {
     for (int i = 0; i < len; i++)
@@ -24,17 +25,18 @@ int main()
     printf("Before Srot :");
     PrintOutput(arr, len);
 
-    SelectSortIncreasing(arr, len);
+    SelectSortIncreasing(arr,len);
     printf("Increasing sequence :");
     PrintOutput(arr, len);
-    SelectSortDescending(arr, len);
+    SelectSortDescending(arr,len);
     printf("descending sequence :");
     PrintOutput(arr, len);
 
     /*
         BubbleSortIncreasing(arr, len);
         BubbleSortDescending(arr, len);
-
+        SelectSortDescending(arr, len);
+SelectSortIncreasing(arr, len);
     */
 
     return 0;
