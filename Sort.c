@@ -2,6 +2,7 @@
 #include "BubbleSort.h"
 #include "SelectSort.h"
 #include "InsertionSort.h"
+#include "ShellSort.h"
 void PrintOutput(int *arr, int len)
 {
     for (int i = 0; i < len; i++)
